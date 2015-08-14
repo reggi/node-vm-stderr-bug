@@ -1,0 +1,19 @@
+{
+  "name": "node-vm-stderr-bug",
+  "version": "1.0.0",
+  "description": "The following code is writing to stderr and it shouldn't because it's wrapped in a try / catch.",
+  "main": "bug.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggi/node-vm-stderr-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggi/node-vm-stderr-bug/issues"
+  },
+  "homepage": "https://github.com/reggi/node-vm-stderr-bug#readme"
+}
